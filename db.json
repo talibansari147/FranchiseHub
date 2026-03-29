@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "id": "admin_uid",
+      "email": "admin@franchise.com",
+      "role": "admin"
+    },
+    {
+      "id": "manager_lhr_uid",
+      "email": "lhr@branch.com",
+      "role": "manager",
+      "branchId": null
+    },
+    {
+      "id": "jVK-5BeWYj4",
+      "email": "ta4090827@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": "mLVZzVjPEQw",
+      "email": "user4090827@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "8vmnLsBMxb8",
+      "email": "manager4090827@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "wuqS9cdPVcc",
+      "email": "ta4090827@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "7NJ1_G5gXF0",
+      "email": "user4090827@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "-QBblbzv0l0",
+      "email": "ta4090827@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "ty1KtjnbDSc",
+      "email": "user4090827@gmail.com",
+      "role": "user"
+    }
+  ],
+  "branches": [
+    {
+      "id": "2",
+      "name": "Karachi Branch",
+      "location": "Karachi",
+      "managerEmail": "khi@branch.com",
+      "inventory": {
+        "chicken": 80,
+        "beef": 40,
+        "bread": 150,
+        "fries": 120,
+        "drinks": 200
+      },
+      "employees": [],
+      "reviews": [
+        {
+          "id": 1774772737842,
+          "user": "ta4090827",
+          "review": "test",
+          "date": "29/03/2026"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Islamabad Branch",
+      "location": "Islamabad",
+      "managerEmail": "isb@branch.com",
+      "inventory": {
+        "chicken": 45,
+        "beef": 20,
+        "bread": 85,
+        "fries": 60,
+        "wraps": 100
+      },
+      "employees": [],
+      "reviews": []
+    }
+  ],
+  "products": [
+    {
+      "name": "Zinger Burger",
+      "price": 500,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Crispy Fries",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "id": "3",
+      "name": "Loaded Nachos",
+      "price": 350,
+      "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "id": "4",
+      "name": "BBQ Wings",
+      "price": 400,
+      "image": "https://images.unsplash.com/photo-1524114664604-cd8133cd67ad?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+      "id": "5",
+      "name": "Cheesy Pizza",
+      "price": 950,
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600&auto=format&fit=crop"
+    }
+  ],
+  "offers": [
+    {
+      "id": "1",
+      "discount": 20
+    }
+  ],
+  "orders": [
+    {
+      "id": "abptyb1XWOA",
+      "userId": "VErbpKjDJkaljWsUhLuKfsHSQVz2",
+      "branchId": null,
+      "product": "Zinger Burger",
+      "quantity": 4,
+      "status": "Completed",
+      "customerName": "talib",
+      "contact": "1234567890"
+    },
+    {
+      "id": "MrmR81IM858",
+      "userId": "guest",
+      "branchId": "2",
+      "product": "zingure",
+      "quantity": 1,
+      "status": "Pending",
+      "customerName": "talib ansari",
+      "contact": "123456789"
+    },
+    {
+      "id": "iQN0u87VmvE",
+      "userId": "rajsOGiJ67RBTtKVvaJq045zWTT2",
+      "branchId": "2",
+      "product": "Loaded Nachos",
+      "quantity": 1,
+      "status": "Cancelled",
+      "customerName": "user4090827",
+      "contact": "123456789"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
